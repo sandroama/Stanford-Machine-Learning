@@ -1,0 +1,1 @@
+Overfitting: if there is too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples.
