@@ -37,7 +37,7 @@ grad = zeros(size(theta));
 %
 
 predict_a = sigmoid(X*theta);
-leftF = -y' * log(predict_a)
+leftF = -y' * log(predict_a);
 rightF = (1-y') * log(1-predict_a);
 theta0 = theta;
 theta0(1) =0;
